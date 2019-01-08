@@ -1,1 +1,2 @@
-this is my first line in version control file
+this is my first line in version control file\
+this is my 2nd line
