@@ -1,0 +1,500 @@
+   28  git branch
+   29  clear
+   30  vi boolean.cpp 
+   31  git status
+   32  git commit -a -m "commiting after line no 3 modifed:added command line args--> on master test"
+   33  git log --oneline --decorate --graph --all
+   34  clear
+   35  git merge test
+   36  git commit -m "merging"
+   37  git mergetool
+   38  git commit -m "merged"
+   39  clear
+   40  git log --oneline --decorate --graph --all
+   41  cat boolean.cpp
+   42  cd D:
+   43  ls
+   44  cd gitprojects
+   45  ls
+   46  cd project
+   47  git remote
+   48  ls -ah
+   49  rm boolean.cpp.orig 
+   50  ls -ah
+   51  git branch test1
+   52  git checkout test1
+   53  git remote add "https://github.com/MonitK/repo3/tree/test1"
+   54  git remote --fetch
+   55  clear
+   56  git remote add branch1 "https://github.com/MonitK/repo3/tree/test1"
+   57  git push -u branch1 test1
+   58  git remote
+   59  ls -ah
+   60  vi boolean.cpp
+   61  git status
+   62  git add . 
+   63  git commit -m "branch commits"
+   64  git push -u branch1 test1
+   65  git checkout master
+   66  git branch
+   67  clear
+   68  git remote add origin "https://github.com/MonitK/testing"
+   69  git remote
+   70  git remove -D branch1
+   71  git remote -D branch1
+   72  git remote remove branch1
+   73  git remote
+   74  git push
+   75  git push  --set-upstream origin master
+   76  git checkout test1
+   77  git push
+   78  git push --set-upstream branch1 test1
+   79  git remote add branch1 test1"https://github.com/MonitK/testing/tree/test"
+   80  git remote
+   81  vi boolean.cpp 
+   82  git push
+   83  git push -u branch1 test1
+   84   git push --set-upstream origin test1
+   85  clear
+   86  ls
+   87  git status
+   88  git add .
+   89  git commit -m "for test"
+   90  git push
+   91  clear
+   92  git pull
+   93  git remote remove branch1
+   94  git remote remove origin
+   95  git checkout master
+   96  git remote remove test1
+   97  git remove test1
+   98  git branch -d test1
+   99  git branch -D test1
+  100  clear
+  101  cd ..
+  102  ls
+  103  mkdir 2ndapril
+  104  cd 2ndapril/
+  105  git init
+  106  cp gitprojects/project1 2ndapril
+  107  cp gitprojects/project1/boolean.cpp 2ndapril
+  108  git status
+  109  clear
+  110  git add .
+  111  git commit -m " first commit on 2nd april,before branching"
+  112  git remote add origin "https://github.com/MonitK/2nd-april"
+  113  git push -u origin master
+  114  git status
+  115  vi boolean.cpp 
+  116  git commit -m " updated boolean.cpp"
+  117  git commit -a -m " updated boolean.cpp"
+  118  git log
+  119  git log --oneline
+  120  git branch test
+  121  git checkout test
+  122  vi boolean.cpp 
+  123  git add .
+  124  git commit -m "first commit on test branch"
+  125  git checkout master
+  126  git push
+  127  git checkout test
+  128  git push
+  129  git push --set-upstream origin test
+  130  git remote
+  131  git branch
+  132  git checkout master
+  133  git checkout test
+  134  git config
+  135  git config --global --help
+  136  git config --user
+  137  git config user.name
+  138  git config user.email
+  139  git config --global
+  140  git config user.name=MonitKapoor
+  141  git config user.name = MonitKapoor
+  142  git config user.email = mkapoor@ddn.upes.ac.in
+  143  git config --user
+  144  git checkout master
+  145  git remote
+  146  git remove orogin
+  147  git remove remote origin
+  148  git remote remove origin
+  149  git remote
+  150  cd ..
+  151  git clone "https://github.com/MonitK/2nd-april"
+  152  ls
+  153  cd 2nd-april/
+  154  ls -ah
+  155  vi Advanced-Data-structures-1.txt 
+  156  vi boolean.cpp 
+  157  git remote add origin "https://github.com/MonitK/2nd-april"
+  158  git remote
+  159  git add .
+  160  git commit -m " from cloned"
+  161  git push
+  162  git push
+  163  git push
+  164  git push
+  165  vi log2ndapril.txt
+  166  git commit -a -m "logs"
+  167  git add .
+  168  git commit -m "logs"
+  169  git push
+  170  git remote remove origin
+  171  git push
+  172  clear
+  173  git config user.name
+  174  git config user.email
+  175  git config user.name = MonitKapoor
+  176  git config user.email = kapoor.monit
+  177  git config user.email = kapoor.monit@gmail.com
+  178  clear
+  179  cd ..
+  180  git config user.name
+  181  git config user.email
+  182  git config user.email = kapoor.monit@gmail.com
+  183  cd 2ndaprilcloned
+  184  mkdir 2ndaprilcloned
+  185  cd 2ndaprilcloned/
+  186  git init
+  187  clear
+  188  ls -ah
+  189  git config user.email = kapoor.monit@gmail.com
+  190  git config user.name = MonitKapoor
+  191  git config user.email 
+  192  git config user.email
+  193  git config user.name
+  194  cd D:
+  195  cd gitprojects/
+  196  dir
+  197  mkdir demo
+  198  cd demo/
+  199  git config user.name
+  200  git config user.email
+  201  git remote add origin "https://github.com/MonitK/demo2ndapril"
+  202  git init
+  203  git remote add origin "https://github.com/MonitK/demo2ndapril"
+  204  vi hello.txt
+  205  git add .
+  206  git commit -m "first commit"
+  207  git push -u origin master
+  208  git push -u origin master
+  209  git config user.name = MonitK
+  210  git config user.email = kapoor.monit@gmail.com
+  211  clear
+  212  ls
+  213  git add .
+  214  git add .
+  215  git status
+  216  git remote add origin "https://github.com/MonitK/demo2ndapril"
+  217  git remote remove origin
+  218  git remote add origin "https://github.com/MonitK/demo2ndapril"
+  219  git push -u origin master
+  220  git remote remove origin
+  221  git config user.name = MonitKapoor
+  222  git config user.email = mkapoor@ddn.upes.ac.in
+  223  cd ..
+  224  ls
+  225  mkdir democloned
+  226  cd democloned/
+  227  git init
+  228  git user.name
+  229  git config user.name
+  230  git config user.name = MonitKapoor
+  231  git config user.email = kapoor.monit@gmail.com
+  232  git config user.name
+  233  ls -ah
+  234  git user.name
+  235  git config --list
+  236  git clone "https://github.com/MonitK/demo2ndapril"
+  237  ls
+  238  cd demo2ndapril/
+  239  ls
+  240  vi hello.txt
+  241  git add .
+  242  git commit -m "from cloned"
+  243  git log --oneline
+  244  git push
+  245  git push
+  246  git log --oneline
+  247  cd D:
+  248  ls C*
+  249  ls C*
+  250  cd CSAworkshop/
+  251  git init
+  252  ls -ah
+  253  git status
+  254  git add.
+  255  git add
+  256  git add .
+  257  git status
+  258  git commit -m "message : this is my first commit in workshop"
+  259  git log
+  260  clear
+  261  vi helloworld.c 
+  262  cat helloworld.c 
+  263  git status
+  264  git add .
+  265  git status
+  266  clear
+  267  git status
+  268  git commit -m "modified with comment at line no 3"
+  269  git log
+  270  git remote add origin "https://github.com/MonitK/CSAworkshop"
+  271  git push -u origin master
+  272  clear
+  273  cd ..
+  274  git clone "https://github.com/roopindersingh/CSA_Workshop.git"
+  275  ls C*
+  276  cd CSA_Workshop/
+  277  ls
+  278  clear
+  279  vi helloworld.c.txt 
+  280  git remote
+  281  git remote add origin1 "https://github.com/roopindersingh/CSA_Workshop"
+  282  git status
+  283  git remote
+  284  git add .
+  285  git commit -m " Roopinder: added math.h header file,for future use"
+  286  git push -u origin1 master
+  287  git push -u origin1 master
+  288  clear
+  289  git push -u origin1 master
+  290  cd ..
+  291  cd CSAworkshop/
+  292  ls -ah
+  293  cat helloworld.c 
+  294  git clear
+  295  git clear
+  296  clear
+  297  cat helloworld.c 
+  298  git status
+  299  git remote
+  300  git commit -m " after roopinder starts collab"
+  301  clear
+  302  git add .
+  303  git status
+  304  git commit -m " after roopinder starts collab"
+  305  git push -u origin master
+  306  git pull
+  307  ls
+  308  cat helloworld.txt
+  309  clear
+  310  cat helloworld.c 
+  311  git push -u origin master
+  312  ls
+  313  cd H:
+  314  ls
+  315  mkdir Project
+  316  cd Project
+  317  git status
+  318  git init
+  319  git status
+  320  vi hello.c
+  321  git status
+  322  git add .
+  323  git status
+  324  git commit -m "first commit"
+  325  git status
+  326  vi hello.c 
+  327  git status
+  328  git add .
+  329  git status
+  330  git commit -m "2nd Commit"
+  331  git log
+  332  git config
+  333  git config --global
+  334  git remote add origin https://github.com/MonitK/Project26thsept.git
+  335  git push -u origin master
+  336  git push -u origin master
+  337  whoami
+  338  git config --global user.email "mkapoor@ddn.upes.ac.in"
+  339  git push -u origin master
+  340  git config --global user.name "MonitK"
+  341  git push -u origin master
+  342  git remote
+  343  history
+  344  cd D:
+  345  clear
+  346  mkdir UIET
+  347  cd UIET
+  348  ls -ah
+  349  vi hello.c
+  350  git status
+  351  git init
+  352  git status
+  353  git add .
+  354  git commit -m "Committing first time"
+  355  git remote
+  356  clear
+  357  git remote add origin https://github.com/MonitK/UIET.git
+  358  git push -u origin master
+  359  git remote
+  360  vi hello.c 
+  361  git status
+  362  git add .
+  363  git commit -m " commiting for Bug fix"
+  364  git push 
+  365  git log
+  366  git diff hello.c
+  367  git diff 00c690e1 d3532651
+  368  ls
+  369  git pull
+  370  ls
+  371  git branch test
+  372  git checkout test
+  373  vi helloworld3.c
+  374  ls
+  375  git commit -a -m "committing in test branch"
+  376  git add .
+  377  git commit -m "committing in test branch"
+  378  git push
+  379  git remote add https://github.com/MonitK/UIET/tree/test
+  380  git remote add test https://github.com/MonitK/UIET/tree/test
+  381  git push -u test test
+  382  git remote'
+  383  clear
+  384  git remote
+  385  git log --oneline --decorate --graph --all
+  386  git checkout master
+  387  git log --oneline --decorate --graph --all
+  388  git checkout test
+  389  git log --oneline --decorate --graph --all
+  390  git status
+  391  git push -u origin master
+  392  git push -u test test
+  393  git add remote test1 https://github.com/MonitK/UIET/tree/test
+  394  git remote add test1 https://github.com/MonitK/UIET/tree/test
+  395  git remote
+  396  git push
+  397  git push -u origin test
+  398  git checkout master
+  399  git merge test
+  400  git status
+  401  git push
+  402  clear
+  403  git log --oneline --decorate --graph --all
+  404  history
+  405  git checkout test
+  406  vi helloworld3.c 
+  407  git add .
+  408  git commit -m " committing for revised spelling"
+  409  git checkout master
+  410  git merge test
+  411  git log
+  412  ls
+  413  cat helloworld3.c 
+  414  git checkout test
+  415  vi helloworld.c
+  416  ls
+  417  vi hello.c
+  418  git status
+  419  git add .
+  420  git commit -m " committing for useless comment:hello.c"
+  421  git checkout master
+  422  git merge test
+  423  cat hello.c 
+  424  wq
+  425  git checkout test
+  426  ls
+  427  cat hello.c
+  428  vi hello.c
+  429  git add .
+  430  git commit -m " final commit before merge"
+  431  git push
+  432  git checkout master
+  433  git mergetool
+  434  mergetool
+  435  git merge test
+  436  git mergetool --tool-help
+  437  vimdiff
+  438  git checkout test
+  439  ls
+  440  vi hello.c
+  441  git commit -a -m "let it be"
+  442  git checkout master
+  443  git mergetool
+  444  git status
+  445  git merge 
+  446  git merge test
+  447  git log
+  448  git log --oneinall
+  449  git log --one--in--all
+  450  git log --one-in-all
+  451  git log --oneline
+  452  git diff f7c6360 d31edbe
+  453  cd D:
+  454  mkdir folder_uiet
+  455  cd folder_uiet/
+  456  ls
+  457  ls -ahg
+  458  ls -ah
+  459  vi helloworld.c
+  460  ls
+  461  git status
+  462  git init
+  463  ls -ah
+  464  git status
+  465  git add .
+  466  git status
+  467  git commit -m "this is my first commit"
+  468  git commit -m " frirst commit in UIET"
+  469  git status
+  470  git log
+  471  git remote add origin https://github.com/MonitK/folder_uiet.git
+  472  git remote
+  473  git push -u origin master
+  474  git pull
+  475  ls 
+  476  git branch test
+  477  git checkout test
+  478  git log
+  479  vi helloworld.c
+  480  cat helloworld.c 
+  481  git checkout master
+  482  cat helloworld.c 
+  483  git checkout test
+  484  git status
+  485  gtit commit -a -m "commiting from branch"
+  486  git commit -a -m "commiting from branch"
+  487  git status
+  488  git remote add origin2 https://github.com/MonitK/folder_uiet/tree/test
+  489  git remote
+  490  git push -u origin2 test
+  491  git push -u origin origin2
+  492  git push -u origin2 test
+  493  git push
+  494  git push -u origin test
+  495  git clone 
+  496  git clone 
+  497  history > uieet.txt
+  498  cat uieet.txt 
+  499  git push
+  500  ls
+  501  pwd
+  502  clear
+  503  cd D:
+  504  ls
+  505  ls -p
+  506  clear
+  507  mkdir project_2019
+  508  cd project_2019/
+  509  ls
+  510  ls -ah
+  511  git init
+  512  ls -ah
+  513  vi first.txt
+  514  cat first.txt
+  515  git status
+  516  git add first.txt
+  517  git status
+  518  git commit -m "first commit"
+  519  git status
+  520  git log
+  521  vi first.txt 
+  522  cat first.txt 
+  523  git status
+  524  git add first.txt 
+  525  git commit -m " 2nd commit"
+  526  git log
+  527  history > log.txt
